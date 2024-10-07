@@ -55,7 +55,7 @@ html {
 .front_side {
     position: fixed;
     background-size: cover;
-    background-image: url("Sprites/front_card_side_bg.jpeg");
+    background-image: url("Assets/Sprites/front_card_side_bg.jpeg");
     width: 100%;
     height: 100%;
 }
@@ -118,7 +118,7 @@ html {
     left: 0;
     width: 100%;
     height: 100px;
-    background: url(Sprites/wave.png);
+    background: url(Assets/Sprites/wave.png);
     background-size: 1000px 100px;
     animation: wave 30s linear infinite;
 }
