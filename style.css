@@ -33,16 +33,11 @@ html {
     }
 }
 
-.music_button{
-    width: 80px;
-    height: 45px;
-    margin: 10px auto;
-}
-
 .business_card {
     width: 800px;
     height: 450px;
     margin: 100px auto;
+    perspective: 1000px;
 }
 
 .business_card_inner {
@@ -60,21 +55,15 @@ html {
 .front_side {
     position: fixed;
     background-size: cover;
-    background: transparent;
+    background-image: url("Assets/Sprites/front_card_side_bg.jpeg");
     width: 100%;
     height: 100%;
 }
-
-.video {
-    width: 100%;
-    height: 100%;
-}
-
 
 
 .back_side {
     position: fixed;
-    background: linear-gradient(-50deg, black 36%, #09b4f9 36%);
+    background: linear-gradient(-50deg, black 35%, #09b4f9 35%);
     backface-visibility: hidden;
     display: flex;
     justify-content: center;
