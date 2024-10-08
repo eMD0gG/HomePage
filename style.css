@@ -13,7 +13,7 @@ html {
 
 @font-face {
     font-family: mainFont;
-    src: url(Assets/Fonts/persona-3.ttf);
+    src: url(Assets/Fonts/persona-3.TTF);
 }
 
 @font-face {
