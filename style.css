@@ -55,7 +55,7 @@ html {
 .front_side {
     position: fixed;
     background-size: cover;
-    background-image: url("Assets/Sprites/front_card_side_bg.jpeg");
+    background-image: url("Assets/Sprites/card_bg.jpg");
     width: 100%;
     height: 100%;
 }
