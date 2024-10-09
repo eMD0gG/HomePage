@@ -130,11 +130,10 @@ html {
 
 .pause_button{
     position: fixed;
-    margin: 180px 175px;
+    margin: 150px 150px;
     width: 50px;
     height: 50px;
     border-style: none;
-    border-radius: 10%;
     background-size: 100% 100%;
     background-image: url("Assets/Sprites/play.svg");
     filter: invert(1);
@@ -148,7 +147,7 @@ html {
     width: 100%;
     height: 150px;
     background: url(Assets/Sprites/wave.png);
-    background-size: 1080px 1280px;
+    background-size: 1280px 1280px;
 }
 
 .air1{
@@ -180,7 +179,8 @@ html {
 
 @keyframes wave_going_down{
     from{
-        height: 1280px;
+        background-size: 1280px 110%;
+        height: 110%;
     }
     to{
         height: 150px;
