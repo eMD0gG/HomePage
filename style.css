@@ -118,10 +118,12 @@ html {
 .icons {
     margin: 200px 0;
     position: fixed;
+    user-select: none;
 }
 
 .icon {
     margin: 0 15px;
+    user-select: none;
 }
 
 .link {
@@ -134,6 +136,7 @@ html {
     width: 50px;
     height: 50px;
     border-style: none;
+    user-select: none;
     background-size: 100% 100%;
     background-image: url("Assets/Sprites/play.svg");
     filter: invert(1);
@@ -192,7 +195,7 @@ html {
         background-position-x: 0;
     }
     100%{
-        background-position-x: 1080px;
+        background-position-x: 1280px;
     }
 }
 @keyframes wave2{
@@ -200,7 +203,7 @@ html {
         background-position-x: 0;
     }
     100%{
-        background-position-x: -1080px;
+        background-position-x: -1280px;
     }
 }
 
