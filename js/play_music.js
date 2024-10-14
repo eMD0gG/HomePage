@@ -1,8 +1,8 @@
-const playlist = [new Audio('Assets/Music/01. It\'s Going Down Now.mp3'),
-    new Audio('Assets/Music/Atsushi Kitajoh - Full Moon Full Life.mp3'),
-    new Audio('Assets/Music/Atsushi Kitajoh - Mass Destruction -Reload.mp3')];
-playlist[1].volume = 0.2;
-playlist[2].volume = 0.2;
+const playlist = [new Audio('Assets/Music/MassDestructionReload.mp3'),
+    new Audio('Assets/Music/ItsGoingDownNow.mp3'),
+    new Audio('Assets/Music/FullMoonFullLife.mp3')];
+playlist[0].volume = 0.1;
+playlist[2].volume = 0.1;
 let currentTrack = 0;
 const audio = playlist[currentTrack];
 const playPauseButton = document.querySelector(".pause_button");

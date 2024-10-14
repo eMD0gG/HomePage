@@ -2,31 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link class="stylesheet" rel="stylesheet" href="style.css">
+    <link rel="icon" href="Assets/Sprites/icon.ico">
     <title>Pyrkov Vasiliy</title>
 </head>
 <body>
+<div class="start_block disabled_events">
+    <h1 class="start_header">Memento Mori</h1>
+    <p class="start_text">Remember, You Will Die.</p>
+    <p class="start_text">Time never waits.</p>
+    <p class="start_text">It delivers all equally to the same end.</p>
+</div>
 <div class="business_card">
     <div class="business_card_inner">
         <div class="front_side"></div>
         <div class="back_side">
-            <h1 class="header"><span style="color:#09b4f9; background-color:white">Pyrk</span>ov Vasiliy</h1>
-            <h1 class="header">Pyrkov Vasiliy</h1>
+            <div class="header_box">
+                <h1 class="header"><span class="span">Pyrk</span>ov Vasiliy</h1>
+                <h1 class="header">Pyrkov Vasiliy</h1>
+            </div>
             <div class="info">
                 <p>FEFU Vladivostok</p>
                 <p>902 076 81 03 | pyrkov.va@dvfu.ru</p>
             </div>
             <div class="icons">
-                <a class="link" href="https://vk.com/vpyrkov">
-                    <img class="icon" src="Assets/Sprites/VK.png" alt="github">
+                <a class="link" href="https://vk.com/vpyrkov" target="_blank">
+                    <img class="icon" src="Assets/Sprites/VK.svg" alt="github">
                 </a>
-                <a class="link" href="https://t.me/eMD0gG">
-                    <img class="icon" src="Assets/Sprites/telegram.png" alt="telegram" width=70px height=70px>
+                <a class="link" href="https://t.me/eMD0gG" target="_blank">
+                    <img class="icon" src="Assets/Sprites/telegram.svg" alt="telegram">
                 </a>
-                <a class="link" href="https://github.com/eMD0gG">
-                    <img class="icon" src="Assets/Sprites/github.png" alt="github" width=70px height=70px>
+                <a class="link" href="https://github.com/eMD0gG" target="_blank">
+                    <img class="icon" src="Assets/Sprites/github.svg" alt="github">
                 </a>
-                <button class="pause_button"></button>
             </div>
         </div>
     </div>
@@ -37,7 +45,6 @@
 <div class='air air4'></div>
 
 <script src="js/hover_disable.js"></script>
-<script src="js/play_music.js"></script>
 <script src="js/konami.js"></script>
 </body>
 </html>

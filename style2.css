@@ -1,7 +1,7 @@
 html {
     height: 100%;
     width: 100%;
-    background: linear-gradient(-135deg, #6dd7ff, #09b4f9, #004a68);
+    background: linear-gradient(-135deg, #ff4646, #f90909, #680000);
     background-size: 100% 100%;
     animation: gradient 30s ease infinite;
     display: flex;
@@ -106,7 +106,7 @@ body {
 .business_card_inner {
     display: flex;
     aspect-ratio: 80 / 45;
-    box-shadow: 10px 10px 10px #005880;
+    box-shadow: 10px 10px 10px #8a0000;
     transition: transform 0.5s;
     transform-style: preserve-3d;
 }
@@ -121,13 +121,13 @@ body {
     width: 100%;
     position: absolute;
     background-size: cover;
-    background-image: url("Assets/Sprites/card_bg.jpg");
+    background-image: url("Assets/Sprites/card_bg2.jpeg");
 }
 
 
 .back_side {
     aspect-ratio: 80 / 45;
-    background: linear-gradient(-50deg, black 35%, #09b4f9 35%);
+    background: linear-gradient(-50deg, black 35%, #f90909 35%);
     backface-visibility: hidden;
     display: flex;
     flex-direction: column;
@@ -161,7 +161,7 @@ body {
 }
 
 .span {
-    color: #09b4f9;
+    color: #f90909;
     background-color: white;
 }
 
