@@ -1,4 +1,4 @@
-function konami(callback) {
+function cheat_codes(callback) {
     let kkeys = [];
     let ikeys = [];
     // up,up,down,down,left,right,left,right,B,A
@@ -28,7 +28,7 @@ function konami(callback) {
 
 let color = 1;
 
-window.addEventListener('keydown', konami(event => {
+window.addEventListener('keydown', cheat_codes(event => {
     console.log(event.key)
     if (event.key === "a") {
         if (color) {
